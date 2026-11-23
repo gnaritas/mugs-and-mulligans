@@ -653,6 +653,12 @@ footer.site a:hover{text-decoration:underline}
 .footline a{color:#ffd98a}
 
 /* responsive */
+@media (max-width:560px){
+  .dots{display:none}
+  .rowtop{flex-wrap:wrap}
+  .price{margin-left:auto}
+  .itemcard .topline .price{margin-left:auto}
+}
 @media (max-width:880px){
   .stripgrid,.visitgrid,.contactgrid,.split,.vgrid{grid-template-columns:1fr}
   footer.site .cols{grid-template-columns:1fr}
