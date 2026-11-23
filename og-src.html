@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+:root{--cream:#f7f2e4;--turf:#1f6a40;--brass:#b9924e;--ball:#e0682b;
+--disp:Georgia,"Times New Roman",serif;--mono:ui-monospace,"SF Mono",Consolas,"Courier New",monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1200px;height:630px;overflow:hidden;position:relative;color:var(--cream);
+  background:radial-gradient(900px 500px at 82% -10%,rgba(63,143,92,.30),transparent 60%),
+  radial-gradient(600px 400px at -8% 110%,rgba(224,104,43,.20),transparent 55%),#0b1f14;
+  padding:70px 80px;display:flex;flex-direction:column;justify-content:center}
+.dimples{position:absolute;inset:0;opacity:.5;background-image:
+  radial-gradient(circle at 25% 30%,rgba(255,255,255,.14) 0 2.4px,transparent 3.2px),
+  radial-gradient(circle at 70% 62%,rgba(255,255,255,.10) 0 2.4px,transparent 3.2px);
+  background-size:34px 34px,47px 47px}
+.top{display:flex;align-items:center;gap:22px;position:relative;z-index:2}
+.mark{width:92px;height:92px;flex:none}
+.brand{font-family:var(--disp);font-size:40px;font-weight:700;letter-spacing:.02em}
+.brand em{font-style:normal;color:var(--brass)}
+h1{font-family:var(--disp);font-size:96px;line-height:1.02;position:relative;z-index:2;margin-top:44px}
+h1 em{color:#ffd98a;font-style:italic}
+.lede{font-size:26px;color:rgba(247,242,228,.9);margin-top:22px;position:relative;z-index:2;max-width:860px}
+.pills{display:flex;gap:12px;margin-top:34px;position:relative;z-index:2;list-style:none}
+.pills li{font-family:var(--mono);font-size:15px;letter-spacing:.12em;text-transform:uppercase;
+  border:1.5px solid rgba(185,146,78,.6);color:#ffd98a;border-radius:999px;padding:10px 20px}
+.rule{position:absolute;left:0;right:0;bottom:0;height:8px;background:#3f8f5c;z-index:3}
+</style>
+</head>
+<body>
+<div class="dimples"></div>
+<div class="top">
+  <svg class="mark" viewBox="0 0 100 100"><rect x="14" y="42" width="52" height="40" rx="7" fill="none" stroke="#f7f2e4" stroke-width="6"/><path d="M66 50h9a10 10 0 0 1 0 20h-9" fill="none" stroke="#f7f2e4" stroke-width="6"/><path d="M39 40V12" stroke="#f7f2e4" stroke-width="6" stroke-linecap="round"/><path d="M39 12l22 8-22 8z" fill="#e0682b"/><path d="M24 84c4-6 8-6 12 0s8 6 12 0 8-6 12 0" fill="none" stroke="#f7f2e4" stroke-width="4" stroke-linecap="round" opacity=".7"/></svg>
+  <span class="brand">Mugs <em>&amp;</em> Mulligans</span>
+</div>
+<h1>Good Grounds,<br><em>Good Rounds.</em></h1>
+<p class="lede">Hand-crafted, locally roasted coffee · bagels &amp; cold brew at 244 Sand Springs Dr #107B, Drums PA</p>
+<ul class="pills"><li>Locally Roasted</li><li>Brewed In-House</li><li>Order Ahead on Cash App</li></ul>
+<div class="rule"></div>
+</body>
+</html>

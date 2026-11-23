@@ -1,0 +1,9 @@
+{
+  "name": "mugs-and-mulligans-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mugs and Mulligans — golf-themed coffee shop, 244 Sand Springs Dr #107B, Drums PA 18222. Template v2 T1 (2026-11-23, t_6432ce1b).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

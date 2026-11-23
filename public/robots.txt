@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mugs-and-mulligans-demo.up.railway.app/sitemap.xml
