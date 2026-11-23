@@ -117,12 +117,12 @@ def head(path, title, desc):
     )
 
 NAV = (
-    '<header class="site"><a class="skip" href="#main">Skip to content</a>'
+    '<header class="site"><div class="wrap hwrap"><a class="skip" href="#main">Skip to content</a>'
     '<a class="brand" href="/">' + MARK +
     '<span class="brandname">Mugs <em>&amp;</em> Mulligans</span></a>'
     '<nav><a href="/">Home</a><a href="/menu">Menu</a><a href="/coffee">Coffee</a>'
     '<a href="/eats">Eats</a><a href="/visit">Visit</a><a href="/contact">Contact</a></nav>'
-    '<a class="btn btn-order" href="' + CASH + '">Order ahead</a></header>'
+    '<a class="btn btn-order" href="' + CASH + '">Order ahead</a></div></header>'
 )
 
 def footer():
@@ -515,8 +515,8 @@ h3{font-size:21px}
 .txtlink{font-weight:600;color:var(--turf);text-decoration:underline;text-decoration-color:rgba(31,106,64,.45);text-underline-offset:3px}
 
 /* header */
-header.site{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:18px;flex-wrap:wrap;
-  background:rgba(247,242,228,.94);backdrop-filter:blur(8px);border-bottom:2px solid var(--fairway);padding:10px 22px}
+header.site{position:sticky;top:0;z-index:40;background:rgba(247,242,228,.94);backdrop-filter:blur(8px);border-bottom:2px solid var(--fairway)}
+.hwrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:10px 22px;max-width:1080px;margin:0 auto}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--pine)}
 .mark{width:44px;height:44px;color:var(--fairway);flex:none}
 .brandname{font-family:var(--disp);font-size:23px;font-weight:700;letter-spacing:.02em}
